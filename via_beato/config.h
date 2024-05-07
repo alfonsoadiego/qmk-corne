@@ -24,6 +24,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
+
+//-------- TAPPING behaving configs-------------------------------
+#define TAPPING_TERM 300
+
+/* 
+The “permissive hold” mode, in addition to the default behavior, 
+immediately selects the hold action when another key is tapped 
+(pressed and then released) while the dual-role key is held down,
+even if this happens earlier than the tapping term. 
+If another key is just pressed, but then the dual-role key is released 
+before that other key (and earlier than the tapping term),
+this mode will still select the tap action
+*/
+#define PERMISSIVE_HOLD
+
+//!-------- TAPPING behaving configs-------------------------------
+
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING
     #define RGBLIGHT_EFFECT_RAINBOW_MOOD
