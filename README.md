@@ -70,3 +70,7 @@ When flashing a split board, each half has it's own microcontroller so you will 
 - [VIA setup](https://youtu.be/7d5yzBOup9U?si=1MO5OTbQLLwgUlAW)
 - [Vial setup](https://youtu.be/O8pdUPqPG3k?si=IrUdmYJw8IY3q91S)
 - [Easy to digest visual guide](https://youtu.be/AA8fw2MbpYg?si=Xdqg4gY-U7xlSWjz)
+
+## Don't forget
+
+`qmk compile  -e CONVERT_TO=promicro_rp2040 --compiledb`
